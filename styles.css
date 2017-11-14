@@ -40,6 +40,7 @@ body, html {
 	margin: 0;
 }
 
+/*fonts for headers and paragraphs*/
 h1{
 	font-size: 90px;
 }
@@ -55,7 +56,6 @@ p {
 	float: right;
 	margin-left: 25px;
 	border:6px solid black;
-
 }
 
 #skills {
@@ -75,7 +75,7 @@ section {
 }
 
 .home{
-	height: 100vh;
+	height: 90vh;
 }
 
 .about{
@@ -84,7 +84,7 @@ section {
 }
 
 .projects{
-	height: 130vh;
+	height: 150vh;
 }
 
 .contact{
@@ -102,6 +102,8 @@ section {
 	float:left;
 }
 
+/* a snippet of CSS was taken from https://codepen.io/jefflombard/pen/GqBzxZ 
+author: Jeff Lombard; */
 .card{
   /* Card Sizing */
   width: 3.5in;
@@ -112,6 +114,16 @@ section {
   color:white;
   float: center;
   margin: 10px;
+}
+
+.text{
+	text-align: center;
+	padding: 0px 10px 5px 10px;
+}
+
+.cardbody{
+	text-align: left;
+	padding: 0px 10px 5px 15px ;
 }
 
 footer{

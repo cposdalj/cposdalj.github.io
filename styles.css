@@ -186,6 +186,7 @@ footer{
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
 	h1{
 		font-size: 75px;
+		color:green;
 	}
 
 	h2 {
@@ -225,6 +226,7 @@ footer{
 
 	h1{
 		font-size: 90px;
+		color:blue;
 	}
 
 	h2 {
@@ -261,6 +263,7 @@ footer{
 @media only screen  and (min-width : 1824px){
 	h1{
 		font-size: 135px;
+		color:red;
 	}
 
 	h2 {

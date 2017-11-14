@@ -169,15 +169,37 @@ footer{
 /*cell phone*/
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px){
 	h1{
-		font-size: 60px;
-		color: purple;
+		font-size: 40px;
+		color:green;
 	}
 
 	h2 {
-		font-size: 40px;
+		font-size: 20px;
 	}
 	p {
-		font-size: 18px;
+		font-size: 12px;
+	}
+	.card{
+ 		width: 1.8in;
+  		height: 2.3in;
+		}
+	li a{
+
+		font-size: 8px;
+	}
+	#topButton {
+  		height: 20px;
+  		width: 22px;
+  		font-size:6px;
+	}
+
+	#headshot{
+		height: 100px;
+		width: 100px;
+	}
+
+	footer {
+		font-size: 7px;
 	}
 
 }

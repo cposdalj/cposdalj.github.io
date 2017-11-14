@@ -166,31 +166,30 @@ footer{
 
 /* media queries for responsive design based off common breakpoint sizes */
 
-/*cell phone*/
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+/*cell phone that are smaller than 360px*/
+@media only screen and (min-device-width : 240px){
 	h1{
-		font-size: 40px;
-		color:green;
+		font-size: 32px;
 	}
 
 	h2 {
-		font-size: 20px;
+		font-size: 21px;
 	}
 	p {
-		font-size: 12px;
+		font-size: 13px;
 	}
 	.card{
- 		width: 1.8in;
-  		height: 2.3in;
+ 		width: 1.9in;
+  		height: 2.8in;
 		}
 	li a{
 
 		font-size: 8px;
 	}
 	#topButton {
-  		height: 20px;
-  		width: 22px;
-  		font-size:6px;
+  		height: 18px;
+  		width: 20px;
+  		font-size:9px;
 	}
 
 	#headshot{
@@ -199,36 +198,137 @@ footer{
 	}
 
 	footer {
-		font-size: 7px;
+		font-size: 8px;
+	}
+
+	.recentWork{
+		width: 100%;
+		float:center;
+	}
+
+	.skillsRight{
+		width: 100%;
+		float:center;
 	}
 
 }
 
-/*tablet*/
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+
+/* larger mobile devices*/
+@media only screen and (min-device-width : 360px){
 	h1{
-		font-size: 75px;
-		color:green;
+		font-size: 44px;
 	}
 
 	h2 {
-		font-size: 40px;
+		font-size: 28px;
 	}
 	p {
-		font-size: 20px;
+		font-size: 18px;
 	}
 	.card{
- 		width: 3in;
-  		height: 4.5in;
+ 		width: 2.3in;
+  		height: 3.6in;
+		}
+	li a{
+		font-size: 10px;
+	}
+	#topButton {
+  		height: 30px;
+  		width: 32px;
+  		font-size:9px;
+	}
+
+	#headshot{
+		height: 120px;
+		width: 120px;
+	}
+
+	footer {
+		font-size: 12px;
+	}
+	.recentWork{
+		width: 100%;
+		float:center;
+	}
+
+	.skillsRight{
+		width: 100%;
+		float:center;
+	}
+
+}
+
+/*tablets*/
+@media only screen  and (min-width : 600px){
+
+	h1{
+		font-size: 55px;
+	}
+
+	h2 {
+		font-size: 35px;
+	}
+	p {
+		font-size: 18px;
+	}
+	.card{
+ 		width: 2.6in;
+  		height: 3.6in;
 		}
 	li a{
 
-		font-size: 16px;
+		font-size: 15px;
 	}
 	#topButton {
-  		height: 40px;
-  		width: 44px;
-  		font-size:12px;
+  		height: 36px;
+  		width: 42px;
+  		font-size:9px;
+	}
+
+	#headshot{
+		height: 160px;
+		width: 160px;
+	}
+
+	footer {
+		font-size: 10px;
+	}
+	.recentWork{
+		width: 50%;
+		float:left;
+	}
+
+	.skillsRight{
+		width: 50%;
+		float:left;
+	}
+}
+/*screens with adjusted windows/tablets*/
+@media only screen  and (min-width : 800px){
+
+	h1{
+		font-size: 65px;
+	}
+
+	h2 {
+		font-size: 36px;
+	}
+	p {
+		font-size: 19px;
+	}
+	.card{
+ 		width: 2.6in;
+  		height: 3.7in;
+		}
+	li a{
+
+		font-size: 18px;
+	}
+	#topButton {
+  		height: 34px;
+  		width: 38px;
+  		font-size:11px;
 	}
 
 	#headshot{
@@ -239,7 +339,61 @@ footer{
 	footer {
 		font-size: 12px;
 	}
+	.recentWork{
+		width: 50%;
+		float:left;
+	}
 
+	.skillsRight{
+		width: 50%;
+		float:left;
+	}
+}
+
+/*notebook laptops screens*/
+@media only screen  and (min-width : 1024px){
+
+	h1{
+		font-size: 80px;
+	}
+
+	h2 {
+		font-size: 46px;
+	}
+	p {
+		font-size: 24px;
+	}
+	.card{
+ 		width: 3.4in;
+  		height: 4.9in;
+		}
+	li a{
+
+		font-size: 20px;
+	}
+	#topButton {
+  		height: 42px;
+  		width: 48px;
+  		font-size:13px;
+	}
+
+	#headshot{
+		height: 220px;
+		width: 220px;
+	}
+
+	footer {
+		font-size: 14px;
+	}
+	.recentWork{
+		width: 50%;
+		float:left;
+	}
+
+	.skillsRight{
+		width: 50%;
+		float:left;
+	}
 }
 
 
@@ -247,8 +401,7 @@ footer{
 @media only screen  and (min-width : 1224px){
 
 	h1{
-		font-size: 90px;
-		color:blue;
+		font-size: 100px;
 	}
 
 	h2 {
@@ -279,13 +432,21 @@ footer{
 	footer {
 		font-size: 16px;
 	}
+	.recentWork{
+		width: 50%;
+		float:left;
+	}
+
+	.skillsRight{
+		width: 50%;
+		float:left;
+	}
 }
 
 /*larger desktop screens*/
 @media only screen  and (min-width : 1824px){
 	h1{
 		font-size: 135px;
-		color:red;
 	}
 
 	h2 {
@@ -315,6 +476,15 @@ footer{
 
 	footer {
 		font-size: 20px;
+	}
+	.recentWork{
+		width: 50%;
+		float:left;
+	}
+
+	.skillsRight{
+		width: 50%;
+		float:left;
 	}
 
 }

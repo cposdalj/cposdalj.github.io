@@ -1,4 +1,6 @@
-//the following two functions were inspired from https://www.w3schools.com/howto/howto_js_scroll_to_top.asp not all code was copied. Author unkown.
+/** the following two functions were inspired from 
+https://www.w3schools.com/howto/howto_js_scroll_to_top.asp 
+Author unkown. **/
 
 window.onscroll = function() {scrollFunction()};
 

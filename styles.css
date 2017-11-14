@@ -25,6 +25,7 @@ li {
 li a {
     display: block;
     color: white;
+    font size: 20px;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -56,6 +57,8 @@ p {
 	float: right;
 	margin-left: 25px;
 	border:6px solid black;
+	height: 300px;
+	width: 300px;
 }
 
 #skills {
@@ -130,6 +133,7 @@ footer{
 	padding: 1% 5%;
 	text-align: center;
 	background-color: #333;
+	font-size:16px;
 }
 
 .wrapper {
@@ -150,47 +154,144 @@ footer{
   cursor: pointer;
   padding: 15px;
   border-radius: 10px;
+  height: 60px;
+  width: 60px;
+  font-size:20px;
+  text-align: center;
 }
 
 #topButton:hover {
   background-color: #333;
 }
 
-//media queries
-@media (min-width: 600px){
+/* media queries for responsive design based off common breakpoint sizes */
+
+/*cell phone*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
 	h1{
-		font size: 30px;
+		font-size: 60px;
+		color: purple;
 	}
-	p{
-		font size:10px;
+
+	h2 {
+		font-size: 40px;
+	}
+	p {
+		font-size: 18px;
+	}
+
+}
+
+/*tablet*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+	h1{
+		font-size: 75px;
+	}
+
+	h2 {
+		font-size: 40px;
+	}
+	p {
+		font-size: 20px;
+	}
+	.card{
+ 		width: 3in;
+  		height: 4.5in;
+		}
+	li a{
+
+		font-size: 16px;
+	}
+	#topButton {
+  		height: 40px;
+  		width: 44px;
+  		font-size:12px;
+	}
+
+	#headshot{
+		height: 200px;
+		width: 200px;
+	}
+
+	footer {
+		font-size: 12px;
+	}
+
+}
+
+
+/*normal desktop screens*/
+@media only screen  and (min-width : 1224px){
+
+	h1{
+		font-size: 90px;
+	}
+
+	h2 {
+		font-size: 60px;
+	}
+	p {
+		font-size: 30px;
+	}
+	.card{
+ 		width: 4in;
+  		height: 5.5in;
+		}
+	li a{
+
+		font-size: 22px;
+	}
+	#topButton {
+  		height: 60px;
+  		width: 64px;
+  		font-size:20px;
+	}
+
+	#headshot{
+		height: 280px;
+		width: 280px;
+	}
+
+	footer {
+		font-size: 16px;
 	}
 }
 
-@media (min-width: 600px){
+/*larger desktop screens*/
+@media only screen  and (min-width : 1824px){
 	h1{
-		font size: 30px;
+		font-size: 135px;
 	}
-	p{
-		font size:10px;
-	}
-}
 
-@media (min-width: 800px){
-	h1{
-		font size: 40px;
+	h2 {
+		font-size: 80px;
 	}
-	p{
-		font size:20px;
+	p {
+		font-size: 43px;
 	}
-}
+	.card{
+ 		width: 5.8in;
+  		height: 7.4in;
+		}
+	li a{
 
-@media (min-width: 1000px){
-	h1{
-		font size: 30px;
+		font-size: 30px;
 	}
-	p{
-		font size:10px;
+	#topButton {
+  		height: 80px;
+  		width: 80px;
+  		font-size:25px;
 	}
+
+	#headshot{
+		height: 400px;
+		width: 400px;
+	}
+
+	footer {
+		font-size: 20px;
+	}
+
 }
 
 

@@ -49,8 +49,19 @@ h1{
 h2 {
 	font-size: 50px;
 }
+
+h3 {
+	font-size: 38px;
+}
 p {
 	font-size: 26px;
+}
+
+#arrow{
+	display: block;
+	margin: 0 auto;
+	height: 120px;
+	width: 120px;
 }
 
 #headshot {
@@ -92,7 +103,15 @@ section {
 
 .contact{
 	height: 70vh;
+	
+}
+
+.research{
+	height: 200vh;
 	background: #A9A9A9;
+	h3{
+
+	}
 }
 
 .recentWork{
@@ -103,6 +122,56 @@ section {
 .skillsRight{
 	width: 50%;
 	float:left;
+}
+
+#interview{
+	margin-left: 5px;
+	border:1px solid black;
+	height: 400px;
+	width: 700px;
+}
+
+#competitor{
+	margin-left: 5px;
+	border:1px solid black;
+	height: 400px;
+	width: 700px;	
+}
+
+#value{
+	margin-left: 5px;
+	border:1px solid black;
+	height: 400px;
+	width: 700px;
+}
+
+#prioritization{
+	margin-left: 5px;
+	border:1px solid black;
+	height: 400px;
+	width: 700px;
+}
+
+#usertest{
+	margin-left: 5px;
+	border:1px solid black;
+	height: 400px;
+	width: 700px;
+}
+
+#cognitive{
+	margin-left: 5px;
+	border:1px solid black;
+	height: 400px;
+	width: 700px;
+}
+
+#userstories{
+	
+	margin-left: 5px;
+	border:1px solid black;
+	height: 400px;
+	width: 700px;
 }
 
 /* a snippet of CSS was taken from https://codepen.io/jefflombard/pen/GqBzxZ 
